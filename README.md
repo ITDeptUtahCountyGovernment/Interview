@@ -1,3 +1,49 @@
+# Notification Center (Interview Exercise)
+
+Tech stack:
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- In-memory state only (no database)
+
+## Setup
+
+```bash
+npm install
+```
+
+## Run
+
+```bash
+npm run dev
+```
+
+Then visit `http://localhost:3000` and click **Go to Notifications** (or go to `/notifications`).
+
+## Tests
+
+```bash
+npm test
+```
+
+## Project Structure (intentionally simple)
+
+- `app/notifications/page.tsx`
+  - Client component
+  - Fetches notifications, holds state in `useState`
+  - Filtering logic lives in the component (on purpose — easy to critique/improve)
+- `components/NotificationItem.tsx`
+  - Renders a single notification row + Mark Read/Unread button
+- `lib/api/notifications.ts`
+  - Fake API layer that simulates async requests with small delays
+  - In-memory "store" initialized with seeded notifications
+
+## Notes / Intentional Imperfections
+
+- The API is a simple in-memory module (shared state inside the module), and the UI re-fetches after “Mark All” rather than doing a more careful local update.
+- Time formatting uses `toLocaleString` and isn’t consistent across locales (fine for this exercise).
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
