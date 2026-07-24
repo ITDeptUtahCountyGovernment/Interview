@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: interview
+  title: Interview
+  description: "Tech stack:"
+  annotations:
+    github.com/project-slug: ITDeptUtahCountyGovernment/Interview
+    backstage.io/source-location: url:https://github.com/ITDeptUtahCountyGovernment/Interview/
+    itdept.dev/language: TypeScript
+    itdept.dev/lines-of-code: "711"
+    itdept.dev/other-languages: CSS,JavaScript
+    itdept.dev/tech-stack: jest,next.js,node,react,tailwind-css,testing-library
+    itdept.dev/next-version: 16.1.7
+    itdept.dev/correct-naming: "false"
+    itdept.dev/password-mgmt: none
+    itdept.dev/created-at: 2026-03-18T17:15:35Z
+    itdept.dev/catalog-last-updated: 2026-07-24T00:39:21.940Z
+    itdept.dev/linting-enforced: "false"
+    itdept.dev/ci-tested: "false"
+spec:
+  type: sandbox
+  owner: group:default/gold-team
+  lifecycle: experimental
