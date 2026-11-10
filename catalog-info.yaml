@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: interview
   title: Interview
-  description: "Tech stack:"
+  description: ""
   annotations:
     github.com/project-slug: ITDeptUtahCountyGovernment/Interview
     backstage.io/source-location: url:https://github.com/ITDeptUtahCountyGovernment/Interview/
@@ -14,12 +14,14 @@ metadata:
     itdept.dev/next-version: 16.1.7
     itdept.dev/correct-naming: "false"
     itdept.dev/password-mgmt: none
+    itdept.dev/github-repo: "true"
     itdept.dev/created-at: 2026-03-18T17:15:35Z
-    itdept.dev/catalog-last-updated: 2026-07-24T00:39:21.940Z
+    itdept.dev/catalog-last-updated: 2026-09-24T01:28:08.619Z
     itdept.dev/linting-enforced: "false"
     itdept.dev/ci-tested: "false"
+    itdept.dev/rad-workflow-adopted: "false"
     itdept.dev/REMOVE-THIS-ANNOTATION: "true"
 spec:
-  type: sandbox
+  type: service
   owner: group:default/gold-team
   lifecycle: experimental
