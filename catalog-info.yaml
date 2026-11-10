@@ -3,8 +3,7 @@ kind: Component
 metadata:
   name: interview
   title: Interview
-  description: Then visit `http://localhost:3000` and click **Go to
-    Notifications** (or go to `/notifications`).
+  description: ""
   annotations:
     github.com/project-slug: ITDeptUtahCountyGovernment/Interview
     backstage.io/source-location: url:https://github.com/ITDeptUtahCountyGovernment/Interview/
